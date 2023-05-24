@@ -1,0 +1,26 @@
+header {
+  background: var(--gradient);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  padding: 0 2%;
+}
+
+header > img {
+  height: 35px;
+}
+
+header > h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 auto 0 1ch;
+  pointer-events: none;
+}
+
+header > h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  pointer-events: none;
+}

@@ -1,0 +1,16 @@
+:root {
+  --gradient: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  --darker-gradient: linear-gradient(90deg, #431853 1.18%, #9523be 100%);
+}
+
+* {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
